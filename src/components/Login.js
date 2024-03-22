@@ -9,9 +9,9 @@ const Login=()=>{
       <img src={TwitterLogo} alt="Twitter Logo" />
       <h1 className="login-heading">Log in to Twitter</h1>
       <form>
-      <input type="text" placeholder="Phone number, email address"  id="input" required />
-      <input type="text" placeholder="Password"  id="input"  required />
-      <button id="login-button" >Log In</button>
+      <input type="text" placeholder="Phone number, email address"   required />
+      <input type="text" placeholder="Password"   required />
+      <button>Log In</button>
       </form>
       </div>
       <div className="bottom-login-container">

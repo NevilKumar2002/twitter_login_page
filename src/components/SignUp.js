@@ -13,8 +13,8 @@ const SignUp=()=>{
       </div>
       <h1 className="login-heading">Create an account</h1>
       <form>
-      <input type="text" placeholder="Name" id="input"  required  />
-      <input type="phonenumber" placeholder="Phone Number" id="input"  required />
+      <input type="text" placeholder="Name"   required  />
+      <input type="phonenumber" placeholder="Phone Number" required />
       <br />
       <a href="#" style={{color:" #1DA1F2", textDecoration:"none"}}>Use Email</a>
       <h4>Date Of Birth</h4>
@@ -22,7 +22,7 @@ const SignUp=()=>{
       
     
       <DateDropdowns />
-      <button id="signup-button">Next</button>
+      <button>Next</button>
       </form>
       </div>
     </div>
