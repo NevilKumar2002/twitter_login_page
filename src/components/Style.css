@@ -1,0 +1,300 @@
+.heading {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 900;
+
+  text-align: left;
+  margin-top: -30px !important;
+}
+.heading2 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 900;
+
+}
+.options-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.44px;
+  text-align: left;
+}
+.signup-container {
+  display: flex;
+  gap: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 30px;
+  margin-top:10px;
+  width: 25vw;
+  /* height:10vh; */
+  justify-content: center;
+}
+.signing-text p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+p a {
+  text-decoration: none;
+  color: rgb(35, 169, 222);
+}
+.home-container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-container {
+  width: 50vw;
+ 
+}
+.left-container img {
+  width: 50vw;
+  height: 87vh !important;
+}
+.right-container {
+  width: 50vw;
+  height:70vh;
+  margin-top:70px;
+  
+  /* border:2px solid red; */
+  margin-left: 3vw;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* border:2px solid black; */
+  position: fixed;
+}
+.footer {
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 10px;
+  color: #666;
+}
+
+/* login */
+.login-heading {
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 49.22px;
+  text-align: left;
+}
+.login-page {
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-left: 30vw;
+  width: 40vw;
+  height: 70vh;
+  padding-left: 20px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 2px 2px black;
+  margin-top: 20px;
+  position: fixed;
+}
+
+input {
+  width: 31vw;
+  height: 50px;
+  gap: 0px;
+  border-radius: 6px 6px 6px 6px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.94px;
+  text-align: left;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+.login-button {
+  background-color: #1da1f2;
+  width: 35vw;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  opacity: 0px;
+  font-size: 18px;
+  text-align: center;
+  /* border-color: white; */
+}
+
+.bottom-login-container {
+  display: flex;
+  justify-content: space-between !important;
+  gap: 15rem;
+  margin-top: 20px;
+}
+.bottom-login-container a {
+  color: #1da1f2;
+  text-decoration: none;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.94px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .login-container {
+    /* border:2px solid rgb(89, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-page {
+    /* border:2px solid rgb(89, 255, 0); */
+    width: 100vw;
+    height: 100vh;
+    margin: 0 !important;
+    box-shadow: none !important;
+    position: absolute;
+  }
+  .login-heading {
+    font-size: 25px;
+  }
+  input {
+    width: 90vw;
+    height: 10vh;
+  }
+  .login-button {
+    width: 90vw;
+  }
+ 
+  .bottom-login-container a {
+    text-align: center;
+  }
+  .signup-button {
+    width: 100vw !important;
+    height: 20vh !important;
+  }
+  .dropdown {
+    width: 30vw !important;
+    height: 8vh !important;
+  }
+  .home-container {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .twitter-image {
+    width: 100vw !important;
+    height: 40vh !important;
+    /* border:2px solid red; */
+  }
+  .heading,
+  .heading2 {
+    font-size: 24px;
+    margin-top: -40px;
+  }
+  .right-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22vw;
+    padding-bottom:50px;
+  }
+  .heading2{
+    margin: 0 !important;
+
+  }
+  .signup-container {
+    width: 70vw;
+  }
+  .signup-page {
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+  .bg-container{
+    position: relative;
+  }
+  .login-page, .signup-page{
+    position:relative !important;
+  }
+  input{
+    width:80vw !important;
+  }
+}
+
+.junk-text {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.dropdown-container {
+  display: flex;
+  gap: 30px;
+}
+.dropdown {
+  width: 14vw;
+  height: 5vh;
+  border-radius: 10px;
+}
+.signup-page {
+  /* border:2px solid red; */
+  display: flex;
+  width: 50vw;
+  height: 90vh;
+  margin-top: 20px;
+  margin-left: 25vw;
+  padding-left: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  position: fixed;
+  box-shadow: 0px 0px 2px 2px black;
+}
+.signup-button {
+  background-color: #1da1f2;
+  width: 40vw;
+  height: 40px !important;
+  margin-left: 3vw;
+  color: white;
+  border-radius: 30px;
+  opacity: 0px;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.twitter-logo {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
