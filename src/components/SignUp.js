@@ -13,8 +13,6 @@ const SignUp=()=>{
       </div>
       <h1 className="login-heading">Create an account</h1>
       <form>
-
-      
       <input type="text" placeholder="Name" required className="input" />
       <input type="phonenumber" placeholder="Phone Number"  className="input" required />
       <br />
