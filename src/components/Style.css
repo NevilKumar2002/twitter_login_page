@@ -118,7 +118,7 @@ p a {
   position: fixed;
 }
 
-.input {
+#input {
   width: 31vw;
   height: 50px;
   gap: 0px;
@@ -133,7 +133,7 @@ p a {
   padding-left: 50px;
   margin-bottom: 20px;
 }
-.login-button {
+#login-button {
   background-color: #1da1f2;
   width: 35vw;
   height: 60px;
@@ -179,18 +179,18 @@ p a {
   .login-heading {
     font-size: 25px;
   }
-  .input {
+  #input {
     width: 90vw;
     height: 10vh;
   }
-  .login-button {
+  #login-button {
     width: 90vw;
   }
 
   .bottom-login-container a {
     text-align: center;
   }
-  .signup-button {
+  #signup-button {
     width: 100vw !important;
     height: 20vh !important;
   }
@@ -239,7 +239,7 @@ p a {
   .signup-page {
     position: relative !important;
   }
-  .input {
+  #input {
     width: 80vw !important;
   }
 }
@@ -255,7 +255,7 @@ p a {
   display: flex;
   gap: 30px;
 }
-.input {
+#input {
   border-color: black;
 }
 .dropdown {
@@ -277,10 +277,10 @@ p a {
   position: fixed;
   box-shadow: 0px 0px 2px 2px black;
 }
-.input {
+#input {
   height: 35px !important;
 }
-.signup-button {
+#signup-button {
   background-color: #1da1f2;
   width: 40vw;
   height: 40px !important;

@@ -11,7 +11,7 @@ const Login=()=>{
       <form>
       <input type="text" placeholder="Phone number, email address"  id="input" required />
       <input type="text" placeholder="Password"  id="input"  required />
-      <button className="login-button" >Log In</button>
+      <button id="login-button" >Log In</button>
       </form>
       </div>
       <div className="bottom-login-container">
