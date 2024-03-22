@@ -11,8 +11,8 @@ const Login=()=>{
       <form>
 
      
-      <input type="text" placeholder="Phone number, email address" required />
-      <input type="text" placeholder="Password" required />
+      <input type="text" placeholder="Phone number, email address" className="input" required />
+      <input type="text" placeholder="Password" className="input" required />
       <button className="login-button" type="submit">Log In</button>
       </form>
       </div>

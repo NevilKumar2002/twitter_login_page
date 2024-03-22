@@ -15,8 +15,8 @@ const SignUp=()=>{
       <form>
 
       
-      <input type="text" placeholder="Name" required />
-      <input type="phonenumber" placeholder="Phone Number" required />
+      <input type="text" placeholder="Name" required className="input" />
+      <input type="phonenumber" placeholder="Phone Number"  className="input" required />
       <br />
       <a href="#" style={{color:" #1DA1F2", textDecoration:"none"}}>Use Email</a>
       <h4>Date Of Birth</h4>
