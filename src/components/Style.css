@@ -2,7 +2,6 @@
   font-family: Roboto;
   font-size: 35px;
   font-weight: 900;
-
   text-align: left;
   margin-top: -30px !important;
 }
@@ -10,7 +9,6 @@
   font-family: Roboto;
   font-size: 30px;
   font-weight: 900;
-
 }
 .options-text {
   font-family: Roboto;
@@ -25,7 +23,7 @@
   border: 2px solid black;
   box-shadow: 0px 0px 2px black;
   border-radius: 30px;
-  margin-top:10px;
+  margin-top: 10px;
   width: 30vw;
 
   /* height:10vh; */
@@ -48,7 +46,6 @@ p a {
 }
 .left-container {
   width: 50vw;
- 
 }
 .left-container img {
   width: 50vw;
@@ -56,10 +53,8 @@ p a {
 }
 .right-container {
   width: 50vw;
-  height:70vh;
-  margin-top:20px;
-  
-  margin-left: 3vw;
+  height: 70vh;
+  margin-top: 20px;
 }
 .bg-container {
   display: flex;
@@ -123,12 +118,12 @@ p a {
   position: fixed;
 }
 
-input {
+.input {
   width: 31vw;
   height: 50px;
   gap: 0px;
   border-radius: 6px 6px 6px 6px;
-  border: 1px 0px 0px 0px;
+  /* border: 1px 0px 0px 0px; */
   opacity: 0px;
   font-family: Segoe UI;
   font-size: 18px;
@@ -184,14 +179,14 @@ input {
   .login-heading {
     font-size: 25px;
   }
-  input {
+  .input {
     width: 90vw;
     height: 10vh;
   }
   .login-button {
     width: 90vw;
   }
- 
+
   .bottom-login-container a {
     text-align: center;
   }
@@ -204,7 +199,6 @@ input {
     height: 8vh !important;
   }
   .home-container {
-
     display: flex;
     flex-direction: column;
   }
@@ -226,11 +220,10 @@ input {
     align-items: center;
     justify-content: center;
     margin-left: 22vw;
-    padding-bottom:50px;
+    padding-bottom: 50px;
   }
-  .heading2{
+  .heading2 {
     margin: 0 !important;
-
   }
   .signup-container {
     width: 70vw;
@@ -239,14 +232,15 @@ input {
     margin: 0 !important;
     box-shadow: none !important;
   }
-  .bg-container{
+  .bg-container {
     position: relative;
   }
-  .login-page, .signup-page{
-    position:relative !important;
+  .login-page,
+  .signup-page {
+    position: relative !important;
   }
-  input{
-    width:80vw !important;
+  .input {
+    width: 80vw !important;
   }
 }
 
@@ -261,8 +255,8 @@ input {
   display: flex;
   gap: 30px;
 }
-input{
-    border-color: black;
+.input {
+  border-color: black;
 }
 .dropdown {
   width: 14vw;
@@ -283,8 +277,8 @@ input{
   position: fixed;
   box-shadow: 0px 0px 2px 2px black;
 }
-.input{
-    height:35px !important;
+.input {
+  height: 35px !important;
 }
 .signup-button {
   background-color: #1da1f2;
