@@ -12,7 +12,7 @@ const SignUp=()=>{
       <img src={TwitterLogo} alt="Twitter Logo"  />
       </div>
       <h1 className="login-heading">Create an account</h1>
-      <form>
+  
       <input type="text" placeholder="Name" required className="input" />
       <input type="phonenumber" placeholder="Phone Number"  className="input" required />
       <br />
@@ -23,7 +23,7 @@ const SignUp=()=>{
     
       <DateDropdowns />
       <button className="signup-button" type="submit">Next</button>
-      </form>
+     
       </div>
     </div>
     </div>
