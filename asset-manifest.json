@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/twitter_login_page/static/css/main.f79cdb10.css",
+    "main.js": "/twitter_login_page/static/js/main.c2d5270e.js",
+    "static/media/back-twitter 1.svg": "/twitter_login_page/static/media/back-twitter 1.ad9b72c6ba29cb61b2f8268d4badb44b.svg",
+    "static/media/twitter-logo-4 1.svg": "/twitter_login_page/static/media/twitter-logo-4 1.d0822d3dc4122c9556fdeee157359d17.svg",
+    "static/media/google-icon 1.svg": "/twitter_login_page/static/media/google-icon 1.c2930f43c953a2f963c9330d10b08eb6.svg",
+    "static/media/logo-apple 1.svg": "/twitter_login_page/static/media/logo-apple 1.2f0c97f9c434216078a0ba57acf1bd21.svg",
+    "index.html": "/twitter_login_page/index.html",
+    "main.f79cdb10.css.map": "/twitter_login_page/static/css/main.f79cdb10.css.map",
+    "main.c2d5270e.js.map": "/twitter_login_page/static/js/main.c2d5270e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f79cdb10.css",
+    "static/js/main.c2d5270e.js"
+  ]
+}
